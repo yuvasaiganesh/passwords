@@ -1,0 +1,105 @@
+.listSection {
+  display: flex;
+  justify-content: space-between;
+  align-items: stretch;
+  width: 50%;
+  height: 30%;
+  border: 1px solid #000000;
+}
+.initialSection {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 30px;
+  border-radius: 100%;
+  background-color: green;
+  font-size: 15px;
+  color: #ffffff;
+}
+.detailsSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  height: 100%;
+  align-self: flex-start;
+}
+.deleteButton {
+  display: flex;
+  align-self: center;
+  justify-content: center;
+  align-items: center;
+  outline: none;
+  border: none;
+  height: 20px;
+  width: 30px;
+  background-color: transparent;
+}
+.deleteIcon {
+  height: 20px;
+  width: 30px;
+}
+.stars {
+  height: 10px;
+  width: 30px;
+}
+.paragraph2 {
+  font-family: 'Roboto';
+  font-size: 6px;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .listSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    width: 30%;
+    height: 50%;
+    border: 1px solid #000000;
+  }
+  .initialSection {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 30px;
+    border-radius: 100%;
+    background-color: green;
+    font-size: 15px;
+    color: #ffffff;
+  }
+  .detailsSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100%;
+    align-self: flex-start;
+  }
+  .deleteButton {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    align-items: center;
+    outline: none;
+    border: none;
+    height: 30px;
+    width: 40px;
+    background-color: transparent;
+  }
+  .deleteIcon {
+    height: 20px;
+    width: 30px;
+  }
+  .stars {
+    height: 15px;
+    width: 100px;
+  }
+  .paragraph2 {
+    font-family: 'Roboto';
+    font-size: 10px;
+    color: #ffffff;
+  }
+}
